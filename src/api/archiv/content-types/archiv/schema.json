@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archivs",
+  "info": {
+    "singularName": "archiv",
+    "pluralName": "archivs",
+    "displayName": "Archiv"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ArchivTitle": {
+      "type": "string"
+    }
+  }
+}
