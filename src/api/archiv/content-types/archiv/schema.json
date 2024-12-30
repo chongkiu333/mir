@@ -4,7 +4,8 @@
   "info": {
     "singularName": "archiv",
     "pluralName": "archivs",
-    "displayName": "Archiv"
+    "displayName": "Archiv",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,31 @@
   "attributes": {
     "ArchivTitle": {
       "type": "string"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ArtistName": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "archivs"
+    },
+    "CoverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

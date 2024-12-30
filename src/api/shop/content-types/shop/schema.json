@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "Introduction": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Material": {
+      "type": "text"
+    },
+    "Catagory": {
+      "type": "string"
+    }
+  }
+}

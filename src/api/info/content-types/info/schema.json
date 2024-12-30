@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutMIRArt": {
+      "type": "text"
+    },
+    "MIRArtConcept": {
+      "type": "text"
+    },
+    "Contact": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Instagram": {
+      "type": "string"
+    }
+  }
+}
