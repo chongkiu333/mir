@@ -1,3 +1,6 @@
+import AuthLogo from '../extensions/logo_round.png';
+import MenuLogo from "../extensions/logo.png";
+
 const config = {
   locales: [
     // 'ar',
@@ -35,6 +38,14 @@ const bootstrap = (app) => {
 };
 
 export default {
-  config,
+  config:{
+    auth:{
+      logo: AuthLogo,
+    },
+    menu:{
+      logo:MenuLogo,
+    }
+
+  },
   bootstrap,
 };
