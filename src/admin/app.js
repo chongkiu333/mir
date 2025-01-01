@@ -1,5 +1,5 @@
-import AuthLogo from '../extensions/logo_round.png';
-import MenuLogo from "../extensions/logo.png";
+import MenuLogo from '../extensions/logo_round.png';
+import AuthLogo from "../extensions/logo.png";
 
 const config = {
   locales: [
