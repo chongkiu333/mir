@@ -15,8 +15,28 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'script-src': ['https://cdn.ckeditor.com'],
-          'connect-src': ['https://proxy-event.ckeditor.com']
+          'script-src': [
+            "'self'", // 允许加载当前域名的脚本
+            'https://cdn.ckeditor.com', // 继续允许 CKEditor 的 CDN
+            'https://big-nature-28d90fcaa4.strapiapp.com' // 添加你的 Strapi Cloud 域名
+          ],
+          'connect-src': [
+            "'self'",
+            'https://proxy-event.ckeditor.com' // 继续允许 CKEditor 的连接
+          ],
+          'img-src': [
+            "'self'", // 允许加载当前域名的图片
+            'data:', // 允许 data URLs
+            'blob:', // 允许 blob URLs
+            'https://big-nature-28d90fcaa4.strapiapp.com' // 添加你的域名
+          ],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'https://big-nature-28d90fcaa4.strapiapp.com'
+          ],
+          upgradeInsecureRequests: null, 
         },
       },
     },
