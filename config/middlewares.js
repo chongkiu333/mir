@@ -22,12 +22,14 @@ module.exports = [
           ],
           'connect-src': [
             "'self'",
-            'https://proxy-event.ckeditor.com' // 继续允许 CKEditor 的连接
+            'https://proxy-event.ckeditor.com' ,// 继续允许 CKEditor 的连接
+            'https://big-nature-28d90fcaa4.strapiapp.com'
           ],
           'img-src': [
             "'self'", // 允许加载当前域名的图片
             'data:', // 允许 data URLs
             'blob:', // 允许 blob URLs
+            'https://cdn.ckeditor.com',
             'https://big-nature-28d90fcaa4.strapiapp.com' // 添加你的域名
           ],
           'media-src': [
