@@ -29,6 +29,7 @@ const config = {
   ],
 };
 
+
 const bootstrap = (app) => {
   console.log(app);
 };
