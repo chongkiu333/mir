@@ -10,4 +10,5 @@ module.exports = ({ env }) => ({
   admin: {
     allowContentTypeBuilder: true,
   },
+  url: env('PUBLIC_URL', 'https://big-nature-28d90fcaa4.strapiapp.com/'),
 });
