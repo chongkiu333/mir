@@ -23,6 +23,8 @@ module.exports = ({ env }) =>[
             'blob:',
             env('PUBLIC_URL'),
           ],
+          'script-src': ["'self'", "'unsafe-inline'", 'cdn.ckeditor.com'], // 添加 CKEditor 的来源
+          'frame-src': ["'self'", 'cdn.ckeditor.com'],
           upgradeInsecureRequests: null,
         },
 
