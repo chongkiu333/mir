@@ -16,13 +16,12 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
+          'img-src': ["'self'", 'data:', 'blob:', env('PUBLIC_URL'), ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
-            'market-assets.strapi.io',
-            'res.cloudinary.com',
+            env('PUBLIC_URL'),
           ],
           upgradeInsecureRequests: null,
         },
