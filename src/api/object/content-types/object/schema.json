@@ -38,9 +38,11 @@
     "Content": {
       "type": "customField",
       "options": {
-        "preset": "defaultMarkdown"
+        "output": "Markdown",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NjU1ODM5OTksImp0aSI6ImJmMzE3MzAyLTAxMmItNDA4Ni1hOWQ3LTg2YWNlZDNlZDFjZSIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkJPWCJdLCJ2YyI6IjY4M2Q5NzMzIn0.y5TyEEd9kJ0tSDSEXJC4-v9TQRZVxLbB9xLUBth0gcZezEjX61DERAPvA0YNAP0MxvHoZHz2XOdVORfb-RKuVw",
+        "preset": "rich"
       },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
