@@ -1,4 +1,6 @@
+// @ts-ignore
 import MenuLogo from '../extensions/logo_round.png';
+// @ts-ignore
 import AuthLogo from "../extensions/logo.png";
 
 const config = {

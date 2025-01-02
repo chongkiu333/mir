@@ -40,7 +40,16 @@ module.exports = [
           ],
           upgradeInsecureRequests: null, 
         },
+
       },
     },
   },
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['http://localhost:3000', 'https://big-nature-28d90fcaa4.strapiapp.com'], // 允许的前端地址
+      methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    },
+  },
+
 ];
