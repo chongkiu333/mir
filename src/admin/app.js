@@ -39,7 +39,7 @@ const bootstrap = (app) => {
 
 export default {
   config:{
-    locales:["en","zh-CN","zh-Hans-CN"],
+    locales:["en"],
     auth:{
       logo: AuthLogo,
     },
