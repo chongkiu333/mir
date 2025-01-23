@@ -35,7 +35,7 @@ module.exports = ({ env }) =>[
     name: 'strapi::cors',
     config: {
       
-      origin: ['http://localhost:3000','https://mir-beryl.vercel.app'], // 允许的前端地址
+      origin: ['http://localhost:3000','https://mir-beryl.vercel.app','https://useful-bracelet-76781fcdb9.strapiapp.com/'], // 允许的前端地址
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
     },
   },
